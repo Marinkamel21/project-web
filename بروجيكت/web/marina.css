@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(245, 249, 253);
+    width: 100%;
+    position: fixed;
+    z-index: 999%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px; 
+}
+
+.logo{
+    text-decoration: none;
+    color: dodgerblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #1a9df4;
+    text-decoration:none ;
+    font-weight: 500;
+    font-size: 1.3em;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: black;
+}
+
+section{
+
+    padding: 20px 50px;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh ;
+    display: flex;
+    align-items: center;
+    background: url(IMG_2306.JPG)no-repeat;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+
+}
+.main h2{
+    color: rgb(0, 0, 0);
+    font-size: 1,4em;
+    font-weight: 800;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: dodgerblue;
+    font-weight: 900;
+    font-size: 2em;
+
+}
+.main h3{
+    color: rgb(0, 0, 0);
+    font-size: 1.6em;
+    font-weight: 800em;
+    margin-top:10px ;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+
+}
+
+ .main-btn{
+        color: rgba(255, 255, 255, 0.948);
+        background-color: blue;
+        text-decoration: none;
+        font-size:1em ;
+        font-weight: 200;
+        display: inline;  
+        padding: 0.937em 2.1875em;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        transition: 0.7s ease;
+ }
+    .main-btn:hover{
+        background-color:rgba(235, 235, 255, 0.948) ;
+        transform: scale(1.1);
+    }
+    .social-icons{
+        color: rgb(255, 255, 255);
+        font-size: 1.3em;
+        padding-right:30px ;
+    }
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #1a9df4;
+    font-size: 2.2em;
+    font-weight: 700px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.contant{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.imag{
+    background-color: aliceblue;
+    width: 20.2em;
+    height: 10.2em;
+    box-shadow:0 5px 35px rgba(1 1 1 /15%) ;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    transition: 0.7s ease;
+
+}
+.imag:hover{
+    transform: scale(1.1);
+}
+.imag h3{
+    color: #1a9df4;
+    justify-content: center;
+    font-size: 1.3em;
+    font-weight: 200px;
+}
+.imag p{
+    color: black;
+    justify-content: center;
+    font-size: 1em;
+}
+.imag2{
+    background-color: aliceblue;
+    width: 20.2em;
+    height: 10.2em;
+    box-shadow:0 5px 35px rgba(1 1 1 /10%) ;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+
+.imag2:hover{
+    transform: scale(1.1);
+}
+.imag2 h3{
+    color: #1a9df4;
+    justify-content: center;
+    font-size: 1.3em;
+    font-weight: 200px;
+}
+.imag2 p{
+    color: black;
+    justify-content: center;
+    font-size: 1em;
+}
+.imag3{
+    background-color: aliceblue;
+    width: 20.2em;
+    height: 10.2em;
+    box-shadow:0 5px 35px rgba(1 1 1 /15%) ;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    transition: 0.7s ease;
+
+}
+.imag3:hover{
+    transform: scale(1.1);
+}
+.imag3 h3{
+    color: #1a9df4;
+    justify-content: center;
+    font-size: 1.3em;
+    font-weight: 200px;
+}
+.imag3 p{
+    color: black;
+    justify-content: center;
+    font-size: 1em;
+}
+.imag4{
+    background-color: rgb(234, 239, 243);
+    width:20.2em;
+    height:10.2em;
+    box-shadow: 0 5px 20px rgba(1 1 1 /15%) ;
+    border-radius:10px;
+    padding:15px;
+    margin:10px;
+    transition: 0.7s ease;
+}
+.imag4 h3{
+    color: #1a9df4;
+    justify-content: center;
+    font-size: 1.3em;
+    font-weight: 200px;
+}
+.imag4 p{
+    color: black;
+    justify-content: center;
+    font-size: 1em;
+}
+.imag4:hover{
+    transform: scale(1.1);
+
+}
+
